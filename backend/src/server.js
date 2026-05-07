@@ -12,7 +12,7 @@ const startServer = async () => {
   try {
     await connectDB();
 
-    await scrapeStories();
+    // await scrapeStories();
 
     app.listen(PORT, () => {
       console.log(`Server running on port ${PORT}`);
